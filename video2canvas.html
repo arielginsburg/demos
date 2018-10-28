@@ -52,6 +52,7 @@
 
         canvas.width =  WIDTH;
         canvas.height = HEIGHT;
+        container.appendChild(canvas);
 
         video.width =  WIDTH;
         video.height = HEIGHT;
@@ -60,7 +61,7 @@
         video.autoplay = true;
         video.setAttribute('playsinline', 'playsinline');
         video.setAttribute('webkit-playsinline', 'webkit-playsinline');
-
+        video.onplay = animate;
 
         if (hasNativeHlsSupport) {
             video.src = VIDEO_URL;
@@ -71,9 +72,6 @@
         } else {
             alert('Can\'t play HLS in this browser.');
         }
-
-        container.appendChild(canvas);
-        requestAnimationFrame(animate);
     })();
 </script>
 </body>
