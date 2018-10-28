@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Video to Canvas Demo</title>
+    <script src="https://cdn.vidible.tv/prod/player/js/latest/lib/hls.js"></script>
+    <style>
+        h1 {
+            font: 18px Arial;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        #container {
+            width: 640px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+<h1>Video to Canvas Demo</h1>
+<div id="container"></div>
+<script type="text/javascript">
+    (function () {
+        var VIDEO_URL = 'https://bitmovin-a.akamaihd.net/content/playhouse-vr/m3u8s/105560.m3u8',
+            WIDTH = 640,
+            HEIGHT = 360,
+            canvas = document.createElement('canvas'),
+            video = document.createElement('video'),
+            container = document.getElementById('container'),
+            context2d = canvas.getContext('2d'),
+            hls,
+            hasNativeHlsSupport = function () {
+                try {
+                    return typeof video.canPlayType === 'function' && video.canPlayType('application/vnd.apple.mpegurl');
+                } catch (e) {
+                    return false;
+                }
+            },
+            hasHlsPluginSupport = function () {
+                try {
+                    return window.MediaSource &&
+                        typeof window.MediaSource.isTypeSupported === 'function' &&
+                        window.MediaSource.isTypeSupported('video/mp4; codecs="avc1.42E01E,mp4a.40.2"');
+                } catch (e) {
+                    return false;
+                }
+            },
+            animate = function () {
+                context2d.drawImage(video, 0, 0, canvas.width, canvas.height);
+                requestAnimationFrame(animate);
+            };
+
+        canvas.width =  WIDTH;
+        canvas.height = HEIGHT;
+
+        video.width =  WIDTH;
+        video.height = HEIGHT;
+        video.loop = true;
+        video.muted = true;
+        video.autoplay = true;
+        video.setAttribute('playsinline', 'playsinline');
+        video.setAttribute('webkit-playsinline', 'webkit-playsinline');
+
+
+        if (hasNativeHlsSupport) {
+            video.src = VIDEO_URL;
+        } else if (hasHlsPluginSupport) {
+            hls = new window['Hls']();
+            hls.loadSource(VIDEO_URL);
+            hls.attachMedia(video);
+        } else {
+            alert('Can\'t play HLS in this browser.');
+        }
+
+        container.appendChild(canvas);
+        requestAnimationFrame(animate);
+    })();
+</script>
+</body>
+</html>
