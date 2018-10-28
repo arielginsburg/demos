@@ -29,14 +29,14 @@
             container = document.getElementById('container'),
             context2d = canvas.getContext('2d'),
             hls,
-            hasNativeHlsSupport = function () {
+            hasNativeHlsSupport = (function () {
                 try {
                     return typeof video.canPlayType === 'function' && video.canPlayType('application/vnd.apple.mpegurl');
                 } catch (e) {
                     return false;
                 }
-            },
-            hasHlsPluginSupport = function () {
+            })(),
+            hasHlsPluginSupport = (function () {
                 try {
                     return window.MediaSource &&
                         typeof window.MediaSource.isTypeSupported === 'function' &&
@@ -44,7 +44,7 @@
                 } catch (e) {
                     return false;
                 }
-            },
+            })(),
             animate = function () {
                 context2d.drawImage(video, 0, 0, canvas.width, canvas.height);
                 requestAnimationFrame(animate);
