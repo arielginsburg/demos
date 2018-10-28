@@ -62,6 +62,7 @@
         video.setAttribute('playsinline', 'playsinline');
         video.setAttribute('webkit-playsinline', 'webkit-playsinline');
         video.onplay = animate;
+        container.appendChild(video);
 
         if (hasNativeHlsSupport) {
             video.src = VIDEO_URL;
