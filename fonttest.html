@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Installable Font Test</title>
+    <style>
+        @font-face {
+            font-family: InstallableProximaNovaCond;
+            src: url('fonts/ProximaNovaCond.otf');
+        }
+
+        @font-face {
+            font-family: InstallableProximaNovaCond-Bld;
+            src: url('fonts/ProximaNovaCond-Bld.otf');
+        }
+
+        @font-face {
+            font-family: InstallableProximaNovaCond-ExtrabldIt;
+            src: url('fonts/ProximaNovaCond-ExtrabldIt.otf');
+        }
+
+        @font-face {
+            font-family: ProximaNovaCond;
+            src: url('https://cdn-ssl.vidible.tv/prod/fonts/Proxima-Nova-Condensed-Medium.otf');
+        }
+
+        @font-face {
+            font-family: ProximaNovaCond-Bld;
+            src: url('https://cdn-ssl.vidible.tv/prod/fonts/Proxima-Nova-Condensed-Bold.otf');
+        }
+
+        @font-face {
+            font-family: ProximaNovaCond-ExtrabldIt;
+            src: url('https://cdn-ssl.vidible.tv/prod/fonts/Proxima-Nova-Condensed-Extrabold-Italic.otf');
+        }
+
+        div {
+            font-size: 18px;
+        }
+
+        .installable-medium {
+            font-family: InstallableProximaNovaCond;
+        }
+
+        .installable-bold {
+            font-family: InstallableProximaNovaCond-Bld;
+        }
+
+        .installable-extrabold-it {
+            font-family: InstallableProximaNovaCond-ExtrabldIt;
+        }
+
+        .non-installable-medium {
+            font-family: ProximaNovaCond;
+        }
+
+        .non-installable-bold {
+            font-family: ProximaNovaCond-Bld;
+        }
+
+        .non-installable-extrabold-it {
+            font-family: ProximaNovaCond-ExtrabldIt;
+        }
+    </style>
+</head>
+<body>
+<h2>Installable fonts</h2>
+<div class="installable-medium">This is Proxima-Nova-Condensed-Medium installable font</div>
+<div class="installable-bold">This is Proxima-Nova-Condensed-Bold installable font</div>
+<div class="installable-extrabold-it">This is Proxima-Nova-Condensed-Extrabold-Italic installable font</div>
+<h2>Non-installable fonts</h2>
+<div class="non-installable-medium">This is Proxima-Nova-Condensed-Medium installable font</div>
+<div class="non-installable-bold">This is Proxima-Nova-Condensed-Bold installable font</div>
+<div class="non-installable-extrabold-it">This is Proxima-Nova-Condensed-Extrabold-Italic installable font</div>
+</body>
+</html>
