@@ -8,7 +8,7 @@
                     <Linear>
                         <Duration>00:00:15</Duration>
                         <MediaFiles>
-                            <MediaFile bitrate="642" delivery="progressive" height="480" type="video/mp4" width="854"><![CDATA[https://arielginsburg.github.io/demos/resources/vast.xml]]></MediaFile>
+                            <MediaFile bitrate="642" delivery="progressive" height="480" type="video/mp4" width="854"><![CDATA[https://arielginsburg.github.io/demos/resources/aolon.mp4]]></MediaFile>
                         </MediaFiles>
                     </Linear>
                 </Creative>
