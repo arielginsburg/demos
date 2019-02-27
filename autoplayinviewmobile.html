@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Autoplay Inview Mobile Demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <script src="//cdn.vidible.tv/prod/player/js/latest/vidible-min.js"></script>
+    <style>
+        html, body {
+            width: 100%;
+        }
+
+        #main {
+            width: 50%;
+            min-width: 320px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="main"></div>
+    <script>
+        (function () {
+            vidible.player('main').setup({
+                'bcid': '5a1685244bf87a6c8b5419b8',
+                'pid': '5c6ebb2cf79c413288b8b02f',
+                'm.autoplayinview': 100,
+                'm.playback': 'autoplay_when_in_view'
+            }).load();
+        })();
+    </script>
+</body>
+</html>
