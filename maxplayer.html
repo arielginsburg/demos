@@ -55,6 +55,14 @@
                         conditionFunc: () => true,
                     }],
             };
+
+            window.__cmp = (cmd, param, callback) => {
+                callback(true, {
+                    gdprApplies: false,
+                    hasGlobalScope: false,
+                    isOathFirstParty: true
+                });
+            };
         </script>
         <script src="https://cdn.vidible.tv/prod/max-suite/65.9afcc2a/max.js"></script>
     </div>
