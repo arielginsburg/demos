@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Parallel frame loading</title>
-    <script type="application/javascript">
-        window.Utils = {
-            getRandomColor: () => '#000000'.replace(/0/g, () => (~~(Math.random() * 16)).toString(16))
-        };
-    </script>
 </head>
 <body>
-    <script async type="application/javascript" src="createframe.js"></script>
-    <script async type="application/javascript" src="createframe.js"></script>
+    <script type="application/javascript">
+        (function () {
+            window.Utils = {
+                getRandomColor: () => '#000000'.replace(/0/g, () => (~~(Math.random() * 16)).toString(16))
+            };
+
+            const framesCount = 5;
+            const scriptUrl = 'createframe.js';
+
+            for (let i = 0; i < framesCount; ++i) {
+                let script = document.createElement('script');
+                script.async = true;
+                script.type = 'application/javascript';
+                script.src = `${scriptUrl}?cb-=${Math.random() * 100000000 | 0}`;
+                document.body.appendChild(script);
+            }
+        })();
+    </script>
 </body>
 </html>
