@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parallel frame loading</title>
+    <script type="application/javascript">
+        window.Utils = {
+            getRandomColor: () => '#000000'.replace(/0/g, () => (~~(Math.random() * 16)).toString(16));
+        };
+    </script>
+</head>
+<body>
+    <script async type="application/javascript" src="createframe.js"></script>
+    <script async type="application/javascript" src="createframe.js"></script>
+</body>
+</html>
