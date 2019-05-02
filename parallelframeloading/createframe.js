@@ -1,7 +1,6 @@
 (function () {
     const container = document.createElement('div');
-    container.style.width = 640;
-    container.style.height = 360;
+    container.style.cssText = 'width: 640px; height: 360px; margin: 20px auto; border 1px #333;';
     document.body.appendChild(container);
 
     const iframe = document.createElement('iframe');
@@ -24,7 +23,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     </head>
-    <body style="margin: 0; height: 100%">
+    <body style="margin: 0; height: 100%;">
     <div style="height: 100%; position: relative"></div>
     <script type="text/javascript" onload="onFrameReady()" src="${scriptUrl}"><` +
         `/script>
