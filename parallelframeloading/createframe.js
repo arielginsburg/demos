@@ -1,6 +1,6 @@
 (function () {
     const container = document.createElement('div');
-    container.style.cssText = 'width: 640px; height: 360px; margin: 20px auto; border 1px #333;';
+    container.style.cssText = 'width: 640px; height: 360px; margin: 20px auto; border: 1px solid #333;';
     document.body.appendChild(container);
 
     const iframe = document.createElement('iframe');
