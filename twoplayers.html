@@ -9,15 +9,6 @@
             margin: 0 auto;
         }
     </style>
-    <script>
-        window.__cmp = (cmd, param, callback) => {
-            callback(true, {
-                gdprApplies: false,
-                hasGlobalScope: false,
-                isOathFirstParty: true
-            });
-        };
-    </script>
 </head>
 <body>
     <div id="main">
@@ -35,7 +26,7 @@
                 <script async src="https://delivery.vidible.tv/jsonp/pid=5c116f29f79c4171d82b7c2a/vid=5cc0d117d21f1a57731a7a95/56000e19e4b0e4e194b84b31.js?m.channel=us.hpmgent&m.embeded=cms_video_plugin_us.edit.huffpost.net&m.fwkeyvalues=sponsorship%3DSPONSORSHIP_NAME&m.fwsitesection=us.entertainment&m.loadingplaceholder=1&m.onLoad=getVidiblePlayer&m.paid_p=the_huffington_post_584%3Dhpo%3A5cc1a935e4b0ad77ff808ade&m.pct=story&m.playertype=html&m.pt=content&m.sitesection=news&m.ss=us.hpmgent&m.timeline_preview_border=3&m.timeline_preview_shape=rectangle"></script>
             </div>
             <div id="player-target"></div>
-            <script type="application/javascript">
+            <script>
                 __cmp = (cmd, param, callback) => {
                     callback(true, {
                         gdprApplies: false,
