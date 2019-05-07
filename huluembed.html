@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hulu embed demo</title>
+</head>
+<body>
+    <div id="videoPlayerComponent"></div>
+    <script type="text/javascript">
+        const CONTENT_ID = 61329750;
+        
+        HuluPlayerConfig = {
+            'enable_share': false,
+            'enable_end_card': false,
+            'hide_controls_bar': true
+        };
+
+        function onHuluApiReady() {
+            var PageLoader = {
+                init: function() {
+                    NewSite.videoPlayerComponent.playVideo(CONTENT_ID);
+                }
+            };
+
+            if (NewSite.readyEventFired()) {
+                PageLoader.init();
+            }
+            else {
+                NewSite.addListener('newsiteReady', PageLoader, 'init');
+            }
+        }
+    </script>
+    <script id="NS_GUID_JS" type="text/javascript" src="https://player.hulu.com/js/hulu_global_html5.js?guid=57E9C02F-8FB9-4104-AC01-CC3599FA2A84&partner=AOL&width=100%&height=100%" onload="onHuluApiReady()"></script>
+</body>
+</html>
