@@ -78,12 +78,12 @@
                         window.addEventListener('orientationchange', function () {
                             if (screen.orientation.type.indexOf('landscape') > -1) {
                                 if (!player.isFullscreen()) {
-                                    console.log('Exit fullscreen');
+                                    console.log('Enter fullscreen');
                                     player.toggleFullscreen();
                                 }
                             } else {
                                 if (player.isFullscreen()) {
-                                    console.log('Enter fullscreen');
+                                    console.log('Exit fullscreen');
                                     player.toggleFullscreen();
                                 }
                             }
