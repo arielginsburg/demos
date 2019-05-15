@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Fullscreen on orientation change demo</title>
+    <style>
+        html, body {
+            width: 100%;
+        }
+
+        #main {
+            width: 50%;
+            min-width: 320px;
+            margin: 0 auto;
+        }
+
+        #lorem-ipsum {
+            margin: 15px 0;
+            font: italic 60px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        }
+
+        #english-subtitle {
+            margin-bottom: 20px;
+        }
+
+        h1, h2, h3, h4, h5 {
+            margin: 0;
+            text-align: center;
+        }
+
+        h4, h5 {
+            color: #f07d31;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1 id="lorem-ipsum">Lorem Ipsum</h1>
+        <h4>"Neque porro quisquam est qui dolorem, ipsum quia dolor sit amet, consectetur velit..."</h4>
+        <h5 id="english-subtitle">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</h5>
+        <div class="player-wrapper">
+            <div id="5cdbf2898c3ae84d72997905" class="vdb_player vdb_5cdbf2898c3ae84d72997905545db032e4b0af1a81424b48">
+                <script type="text/javascript" src="https://delivery.vidible.tv/jsonp/pid=5cdbf2898c3ae84d72997905/545db032e4b0af1a81424b48.js"></script>
+            </div>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim enim scelerisque odio mollis, tempus interdum libero fringilla. Nulla id purus augue. Pellentesque porta pretium metus, nec auctor tortor malesuada vel. Sed quis sodales nunc. In suscipit volutpat ante, et pretium quam vulputate ac. Donec cursus eros odio, ac elementum urna feugiat a. Morbi eu rutrum ex. Aliquam a magna sit amet magna rhoncus accumsan non ut elit. Aenean pharetra ac nisl ac lacinia. Aliquam efficitur ullamcorper augue nec molestie. Ut tempus rhoncus auctor. Cras vitae enim ornare, rhoncus lacus faucibus, sagittis tellus. Vivamus nec odio velit.
+        </p>
+        <p>
+            Nunc eget massa maximus, vestibulum tellus quis, eleifend diam. Maecenas lobortis ante ac orci porttitor, pellentesque fringilla purus auctor. Donec laoreet lectus id ultrices egestas. Nulla eget egestas purus. Nullam porta commodo pharetra. Vestibulum posuere nunc a dolor dapibus molestie. Duis ornare viverra justo. Nam aliquam velit sem, dignissim gravida turpis bibendum ut. Integer dignissim dignissim dapibus. Nam sed porttitor arcu. Quisque nec erat quis lorem malesuada feugiat.
+        </p>
+        <p>
+            Aenean lacinia diam sit amet tortor elementum, vel blandit nisi blandit. Suspendisse potenti. Etiam lobortis tristique maximus. Donec ullamcorper tincidunt est egestas tincidunt. Sed sagittis velit in consequat vehicula. Sed vel massa venenatis, fermentum turpis tempus, dignissim felis. In sagittis turpis ut urna posuere, eu sodales purus dictum. Cras sapien nibh, hendrerit et consequat eget, vestibulum nec orci. Duis scelerisque, quam a laoreet sollicitudin, dolor diam iaculis enim, vel sagittis ex erat vel libero.
+        </p>
+        <p>
+            Vivamus vitae velit in lorem ultricies varius nec at est. Quisque dapibus varius ex dictum vestibulum. Nunc in tincidunt neque, at ultrices risus. Donec varius suscipit lacus a maximus. Quisque semper pulvinar faucibus. Nunc varius ex tincidunt odio fringilla molestie. Integer egestas, diam eu bibendum maximus, purus lacus fringilla ex, at laoreet elit sem eget massa. Donec blandit faucibus neque, non pharetra nisl laoreet in. Aliquam egestas, orci a gravida congue, felis mi elementum mauris, vel sodales neque mauris porttitor ex. Morbi semper consequat nulla, ut interdum felis sollicitudin eu. Vivamus a dui sit amet ex congue pharetra eu ut arcu. Mauris fringilla mi vitae maximus laoreet. Ut ut fringilla tortor. Morbi eu egestas ligula, molestie rutrum odio. Nam vel justo ut odio ultrices tempus.
+        </p>
+        <p>
+            Phasellus nec mi non purus molestie hendrerit in quis enim. Nunc euismod commodo pharetra. Proin vel nulla in arcu hendrerit dapibus. Sed vulputate, metus aliquet maximus molestie, ipsum magna ullamcorper libero, vitae malesuada magna risus a orci. In consectetur accumsan nisl, tempus iaculis enim scelerisque non. Donec blandit lorem eu libero sagittis, et consequat odio rhoncus. Curabitur tempor commodo nibh sit amet commodo. Etiam arcu velit, porta eu faucibus vel, condimentum non dolor.
+        </p>
+        <p>
+            Nunc ut urna ut risus lobortis eleifend sed nec ante. Morbi viverra, nibh eget rhoncus placerat, dolor sem bibendum libero, et posuere justo erat et enim. Aliquam erat volutpat. Nunc id enim quam. Morbi sit amet molestie nibh, vel eleifend enim. Cras sit amet iaculis nulla. Vestibulum tincidunt viverra molestie.
+        </p>
+    </div>
+    <script type="text/javascript">
+        (function () {
+            var player,
+                playerWrapper = document.getElementById('player-wrapper'),
+                playerReadyCheck = setInterval(function () {
+                    if (player = playerWrapper.vdb_Player) {
+                        clearInterval(playerReadyCheck);
+
+                        window.addEventListener('orientationchange', function () {
+                            if (screen.orientation.type.indexOf('landscape') > -1) {
+                                if (!player.isFullscreen()) {
+                                    console.log('Exit fullscreen');
+                                    player.toggleFullscreen();
+                                }
+                            } else {
+                                if (player.isFullscreen()) {
+                                    console.log('Enter fullscreen');
+                                    player.toggleFullscreen();
+                                }
+                            }
+                        });
+                    }
+                }, 100);
+        })();
+    </script>
+</body>
+</html>
