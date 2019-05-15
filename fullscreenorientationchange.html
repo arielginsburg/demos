@@ -76,6 +76,7 @@
                         clearInterval(playerReadyCheck);
 
                         window.addEventListener('orientationchange', function () {
+                            debugger;
                             if (screen.orientation.type.indexOf('landscape') > -1) {
                                 if (!player.isFullscreen()) {
                                     console.log('Enter fullscreen');
