@@ -74,12 +74,14 @@
                         clearInterval(playerReadyCheck);
 
                         window.addEventListener('orientationchange', function () {
-                            if (screen.orientation.type.indexOf('landscape') > -1) {
+                            console.warn('isFullscreen: ' + player.isFullscreen() + '; landscape: ' + window.matchMedia('(orientation: landscape)').matches);
+
+                            if (window.matchMedia('(orientation: portrait)').matches) { // portrait->landscape
                                 if (!player.isFullscreen()) {
                                     console.log('Enter fullscreen');
                                     player.toggleFullscreen();
                                 }
-                            } else {
+                            } else { // landscape->portrait
                                 if (player.isFullscreen()) {
                                     console.log('Exit fullscreen');
                                     player.toggleFullscreen();
