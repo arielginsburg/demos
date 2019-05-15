@@ -43,10 +43,8 @@
         <h1 id="lorem-ipsum">Lorem Ipsum</h1>
         <h4>"Neque porro quisquam est qui dolorem, ipsum quia dolor sit amet, consectetur velit..."</h4>
         <h5 id="english-subtitle">"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</h5>
-        <div id="player-wrapper">
-            <div class="vdb_player vdb_5cdbf2898c3ae84d72997905545db032e4b0af1a81424b48">
-                <script type="text/javascript" src="https://delivery.vidible.tv/jsonp/pid=5cdbf2898c3ae84d72997905/545db032e4b0af1a81424b48.js"></script>
-            </div>
+        <div id="player-wrapper" class="vdb_player vdb_5cdbf2898c3ae84d72997905545db032e4b0af1a81424b48">
+            <script type="text/javascript" src="https://delivery.vidible.tv/jsonp/pid=5cdbf2898c3ae84d72997905/545db032e4b0af1a81424b48.js"></script>
         </div>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim enim scelerisque odio mollis, tempus interdum libero fringilla. Nulla id purus augue. Pellentesque porta pretium metus, nec auctor tortor malesuada vel. Sed quis sodales nunc. In suscipit volutpat ante, et pretium quam vulputate ac. Donec cursus eros odio, ac elementum urna feugiat a. Morbi eu rutrum ex. Aliquam a magna sit amet magna rhoncus accumsan non ut elit. Aenean pharetra ac nisl ac lacinia. Aliquam efficitur ullamcorper augue nec molestie. Ut tempus rhoncus auctor. Cras vitae enim ornare, rhoncus lacus faucibus, sagittis tellus. Vivamus nec odio velit.
@@ -76,7 +74,6 @@
                         clearInterval(playerReadyCheck);
 
                         window.addEventListener('orientationchange', function () {
-                            debugger;
                             if (screen.orientation.type.indexOf('landscape') > -1) {
                                 if (!player.isFullscreen()) {
                                     console.log('Enter fullscreen');
