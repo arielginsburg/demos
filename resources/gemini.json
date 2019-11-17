@@ -1,0 +1,76 @@
+{
+    "ads": [{
+        "actionUrls": {
+            "IMPR_INTERNAL": [
+                "https://beap.gemini.yahoo.com/action?bv=1.0.0&es=ZbuNUG0GIS8shJbS2__FWtbWQPKB02as3BmpUcrOfzMGqmtcDl._XQBjsQMQsO_3avZvrDKHKTyrimXsgrH47GFoO8ctYYJZUagOFCrYApvQ_A7G4ZZoahgfBWycXWo4XOCnC0yPVRd1JMtyFJhPoLvDcvuhWENzNDpIv3jlNF68F4jjvhN02buPS_DcasmrOdWFry23.iRY8_cztKpfshMhziYS6L7Y8O3k2PbqyFKP6H5xqPXxPRNonEUGodnlxOEwkFr4bxK1erEAYgE94Zocn1kiF7kbOInLj55J5.KxQswC321P0wr4WpUEFcoAUr7W5w--&lb=$(impr_label)"
+            ],
+            "VIDEO_30_SEC": [
+                "https://beap.gemini.yahoo.com/action?bv=1.0.0&es=57X41N4GIS_ThvNxCl.zfcw1SH5XTojNtoy.dDvqEeHlxa77tTjtAR5fLmNjCljxQHlW3J3nJaTy5VeofFzy9__1tnvmnNonHLD02u7E2fo0PxWzb3UiNIhCiVaXIv8EM02srnYMzYcdH_9peNJssKBL1cxP1JRycl9mmEWE4QCT529h98Vk4.Q_37t3CRIosePQpnDyaOGGiQyX4Z4BvzUnERSekNtV46lZHO_x0bveAMqoALXsCtiyW6Yt1GUMYbKJG_k8TQ.CSXkA2bKzsoz38clVuKSWyLnk0CGzgmS.fi1epbhV02iNPYr.tldG7ngx4Q--"
+            ],
+            "VIDEO_CLOSE": [
+                "https://beap.gemini.yahoo.com/action?bv=1.0.0&es=c6NpD18GIS93jJrthcqhHuXezOz0mZBEhLrJXvqgQDUSxPbaXhy60mHFgz.5y47VIcUKpAg_sduBebq.q_1GvcvHUavidjrN4.HcUMhBhQFecZU4cq2GOPy_D_NgIDSArN9zTqkmTG5lmV1bnwZHwwlOt0W7uyamJLWBh_X7V4wK8PxfVGfZ4YTISMZkocpvv9T87ZBGzCDBthkSGNnLjNG04XyznfcLnZz6B320x3yeHlDfDiykpOTuc4CTxYbpBi8gcIw9grJB47jmxIVK5kpgWlHKQJCr_f8HDi4oT4f_oMVJPQ7qWGWjQASMYOWDGnQJNQ--"
+            ],
+            "VIDEO_QUARTILE_100": [
+                "https://beap.gemini.yahoo.com/action?bv=1.0.0&es=yR_vuvwGIS9cMpPabifggM2e3XZa8s8O9319NOjJTqftB8WLAtCmj7.ME7Ynf41n8NhuHWsbchICVWL0FaVftcBReiqXgejIbDnRCX17A9zYSgZN1fTEbWJRY7Eray7dg4zZLGPY9aGVJwkSVE3nJuZFZdVKSuGb7ujBT9nHNiA0KNduxok0VUCH8MBLSQ.JAlQ.TlETOaBeIePobNGEp7S2IrnwmpMw16D2sNflsyw69.LUKrn_4QMeLF3J9IhYPhR36Q_30vrWq8Sb9WUddi005wNWfTk3Iq7rCQONJi2SyuGHwIDQT.c8UcvplrLtAeGJm9imHTyFtuX.sj0XyZq3yb9LSTSTi4M0eiY-&vsa=$(V_SKIP_AVAIL)&va=$(V_AUTOPLAYED)&vph=$(V_PLAYER_HEIGHT)&vpw=$(V_PLAYER_WIDTH)&ve=$(V_EXPANDED)&vpi=$(V_VIEW_INFO)&api=$(V_AUD_INFO)&atv=$(V_AUD_TIME_INVIEW_100)"
+            ],
+            "VIDEO_QUARTILE_25": [
+                "https://beap.gemini.yahoo.com/action?bv=1.0.0&es=EFmQiz0GIS.TEizhPQE6wGeJOLTiBXhPZ3SlvKdU9Ud_JF4_DRQ6sru5hd6VuqHDDPrfalQehIGbz8Wy_7OrJkBWMJEDncS6eYQYUzHtMrGwl23iGgL2g8bbCJD40xOhNQ1rxUK.ZoN71SK6ljedNMexIsVqje0n7xxyBQESZgpt2xniB10yZoogPKd5G8eMeLFvrJFJRN_NiF0KNleNCmBPkxjk35DQ4CvVJubi8iUlYxrYD6rgaVKTXYk_A84D5FXIGRrR5AdAmUY4sqH3sg3M7uhviy2QoWenCw7UXi58no4PK2GQ772Uan.IHjyo71DS&vsa=$(V_SKIP_AVAIL)&va=$(V_AUTOPLAYED)&vph=$(V_PLAYER_HEIGHT)&vpw=$(V_PLAYER_WIDTH)&ve=$(V_EXPANDED)&vpi=$(V_VIEW_INFO)&api=$(V_AUD_INFO)&atv=$(V_AUD_TIME_INVIEW_100)"
+            ],
+            "VIDEO_QUARTILE_50": [
+                "https://beap.gemini.yahoo.com/action?bv=1.0.0&es=tFvxEVcGIS9Nyw2hBotzgDWNk8EHnsbpvHZL5Vv5Aa5LTG1Ba5Bx2OmXxd6GbMGpKmQGxHj31Ae33EOlMNXKrHyn6QSXE8zSUA5UQSHCcGaODdZZ6k2n3o7c8_z2.GcClKESdfHEq6dY.VZ_iHoMiwA8h_bVlOGIsPKc4Uv1pMEpL3tY3QGdvUFsrZh7.DjSjZzdNVxQFewVaC_et5ytfRRfMfoEXPGHmIReQH0Y6c6pskLHaxsTk37Yrq9PAgWptgwe9MhqO7glgMu27zap4kvHjgxN3kCOJ9bjcB_5JN63WdRUx2ZlPVweQkTb0L7_QmUx&vsa=$(V_SKIP_AVAIL)&va=$(V_AUTOPLAYED)&vph=$(V_PLAYER_HEIGHT)&vpw=$(V_PLAYER_WIDTH)&ve=$(V_EXPANDED)&vpi=$(V_VIEW_INFO)&api=$(V_AUD_INFO)&atv=$(V_AUD_TIME_INVIEW_100)"
+            ],
+            "VIDEO_QUARTILE_75": [
+                "https://beap.gemini.yahoo.com/action?bv=1.0.0&es=gR5KX7gGIS8uc83vQ0vyHDkMTUwLFw2qsfEfo_0zEIkuWwAWxmZdabYRDBwx6G1uc0Rta_F65nA7T1jd0YllgnjA2iCbaElJdsCZ2qt5iRLjS.7euJbZdIqzcAIRpZ8Z9GhTcBX4FAf_ctkZxQIeiQ2q79KanD6u_k_pAOeDvXuj37vbnJ27ShiboWj3i14rN51qsAiq4cW_w3AZcSFdpYgZ9rQgtShtb7DJKCk1i04E0lL59n8jnYDQ8DggP.i.qATIkxs.Vq3FJBD1FRJq_Ps97X8JM0ojqyWLHP70Wmzw4FzFVQkXsAzgoJM4zYG8FT_G&vsa=$(V_SKIP_AVAIL)&va=$(V_AUTOPLAYED)&vph=$(V_PLAYER_HEIGHT)&vpw=$(V_PLAYER_WIDTH)&ve=$(V_EXPANDED)&vpi=$(V_VIEW_INFO)&api=$(V_AUD_INFO)&atv=$(V_AUD_TIME_INVIEW_100)"
+            ],
+            "VIDEO_SKIP": [
+                "https://beap.gemini.yahoo.com/action?bv=1.0.0&es=m3ZHqy4GIS_Dqq3tIn7cwRtFP6fawmBo80Vd2VTpEdZCRVTcAWAjlOM0Kl1eA4oQqg4kfLvoDFONQot8gmjv4yE9CcAwzRYYrw48tGtWx5ElOFTO6sWVBX.1EVFn5WeNkLbz7l4WtJczJeVQT2rED04TffwlL5r_da2sKmMa9ChxAfh6cyTIMTCOghknqLUDphOvJ0ldqq6chUEdYHFfmPwWqopif3Ohc8jOebn.3z3ypWsZFWrbnYweuROMMa3sqA7g.dND4tIEAk_PYfIsfhO4oee6EyLkqM.mX99lsofETWSeHMgGpjNE30UDDpuaGkDnBA--"
+            ],
+            "VIDEO_START": [
+                "https://beap.gemini.yahoo.com/action?bv=1.0.0&es=YmwgkyYGIS_0gltxAH33g3DXCz1BNZw9ASXKCFQ8PTaOt3ofaYp1uwDFfeqPFesRKiMhCxIM6g0qO6ioxsdrxsvLEAEwxcj3KfCBqpt0u4AP8z3S12kla8.CEkas2Tcb3YLcMvaSO5k1pbnW8wx9cdb5dAorlJbiQBgPVwFL.3NxALuG14mF.j4TGusoFacxl9geYXAVfV0hatsf_ut8ZtS71Al5tOJDZ3oN1kK0ISu6D_p7vMtCHOPiGjIEvMESkbe4fMEH2ERGJJTDAD1T4y5VQWOWsH_hIv7_8M2QgytOcUDzWcR3wigC8KgfNKks41KN&vsa=$(V_SKIP_AVAIL)&va=$(V_AUTOPLAYED)&vph=$(V_PLAYER_HEIGHT)&vpw=$(V_PLAYER_WIDTH)&ve=$(V_EXPANDED)&vpi=$(V_VIEW_INFO)&api=$(V_AUD_INFO)&atv=$(V_AUD_TIME_INVIEW_100)"
+            ],
+            "VIDEO_VIEW": [
+                "https://beap.gemini.yahoo.com/action?bv=1.0.0&es=SGJ5gwMGIS.XBDGVBTmMq6jt4Bol3CiFqY2Tq3WKg_qN89Ul.yROSQ4l5S9D0_VGXHp3P2iOVa9kgvsMc3O6N9UDn6Y6nxoHYULEHEc90jqxwaqImc.GgWLCG2IcJ3ao9pnj.FyFmi_GuweCuqGDkgDP9kAtln9RiEEuz34UfC4P0cXXLgPwSqciXlmstpbixDEmAKcimuufNY60._2Lcnf5aVlJ7mtYAlx2ret80jXiFedfRS9KDqd3UoHP7rLeGZ3CdFZrnyPmUf8HOMRBk15X7RrBVQ3LeBbL3nheu.l9GcmNVzYlgv4yxRhSujL7NyZMXC1G6K5CC7XfdLzlER2.fzMasJt5fou8TcLPf6LVPQ--&vsa=$(V_SKIP_AVAIL)&va=$(V_AUTOPLAYED)&vph=$(V_PLAYER_HEIGHT)&vpw=$(V_PLAYER_WIDTH)&ve=$(V_EXPANDED)&vpi=$(V_VIEW_INFO)&api=$(V_AUD_INFO)&atv=$(V_AUD_TIME_INVIEW_100)"
+            ],
+            "VIDEO_VIEW_3P": [
+                "https://beap.gemini.yahoo.com/action?bv=1.0.0&es=rI68KS0GIS95htgZk52Zbak647AdGIl55K_tf6dLQHbgaXDKR.IWBX8r00Q.scVOibonIewo2FzkqeDCQMcqNDZPT17IDrKCCKjNtPzJPckVy0inANrMAhFctBuGxNqI2BbseHTAKOJZb347PcilUfQpbO2GjulEGHl1vKuxAVOVUvXT36dZK0zP6mhgWLlMZvmllZpQixHY6kMNhlG4PTEV1ewKBdfWAB2TJC0lM8_w78Y4DcdpQDT_Deego0PWiYCMy3XnPrIY.B6QaSR2lcOHRf9OfcbhGX0JWZZBwXDfHjJypHYNm58QcCqkWbcaObxStQ--&vsa=$(V_SKIP_AVAIL)&va=$(V_AUTOPLAYED)&vph=$(V_PLAYER_HEIGHT)&vpw=$(V_PLAYER_WIDTH)&ve=$(V_EXPANDED)&vpi=$(V_VIEW_INFO)&api=$(V_AUD_INFO)&atv=$(V_AUD_TIME_INVIEW_100)&vt=$(V_VIEW_TYPE)"
+            ]
+        },
+        "beacon": "https://beap.gemini.yahoo.com/mbcsc?bv=1.0.0&es=tjZVXm0GIS_eAxLnzhT2sRlP6VKeC63p4wGbYsYqOV6AI8UeIo96RN6TXn6ak5h.Ym5Rfhquq7B8PyCclsviqFaLU92kTZimHM0EmKYkpA3fJzJrTmrTyRuN2KO.fTAtdphziK6kKLYP1h0bB6snSOJWnbBaCp4XpCFnNAzdXyBOd5WHKm9ux.qW34lQ5teF8m2JJX3CgYmBTWSG64sK2RYNrAKEqoRDadBcLWZQrVd9BKKvMF9nltkJXo1bhe3ptqvhokkdZnvdMWBd9uMgdy8bAXxsio_Q9Y.Xir60h_iE8rScxypfiLWX3E6UDqaMsKUgP4baO7O.q4souDrpxM8LR1SBBhB2pR8jjGJHSKP4jShN89tguIvTTLGtHlQ1IZTKHgkHOyPdYVn1I9jOkyImwZe.fntPf3o0NdIz60p60aSWxQFweW14nQUgXrHlEWc-&ap=$(AD_POSN)",
+        "bidUSD": 0.2,
+        "ccCode": "STRM_VIDEO",
+        "clickProbability": 0.004473395145919576,
+        "creativeId": 33362086729,
+        "displayUrl": "http://l.yimg.com/av/curveball/ads/pr/RESIZE/82x82/672305acb9b50c0233a6c261666e311a.jpeg",
+        "index": 1,
+        "landingPageUrl": "http://track.androidpp.com/21109b3b-84d4-42b8-944a-ca5f6680f406?adid=33362086729&creative=33362086729&device=&network=n&pixel=.i2YI8cf1H_rNvlwc6opP.zrvb1w3Dy7UPTh7GoR1.8kY1M8iaxz6.bqHtO3MGyVX1by22sOy9plijaqzDXnLvjLXDqxBV1Kt3f8u.Ktrw7dHEB0pxnQ6NpAgqpY4ahVfj5eG4bRx.6xzmDylYHhVNiQ6nqQ9gHiMs7KwX9OaRZtsMktS_qTlaB7IFrCSm.Z_8Yd5.exYZUW1Q8n3RcWUWPOfzfRWkfKPd3GiO.Pb7l_LQ--&pixelid=null&mi=6F36EFC1-6687-4E5D-85FF-E7764459D13C",
+        "normalizedEcpm": 0.8946790291839152,
+        "priceType": "CPC",
+        "rsc": 0.001163221372962653,
+        "rules": {
+            "viewabilityDefStatic": {
+                "d": 1,
+                "p": 50,
+                "c": 1
+            },
+            "viewabilityDefVideo": {
+                "d": 15,
+                "p": 100,
+                "c": 0,
+                "a": 0
+            }
+        },
+        "sponsoredBy": "softerhealthier",
+        "tag": "{\"ad_feedback_beacon\":\"https://us.af.beap.bc.yahoo.com/af?bv=1.0.0&bs=(176bu7mak(gid$b271750a-3f11-11e7-a58a-008cfac0a9cc-7fb20f4b8700,st$1495473089975000,li$0,cr$33362086729,dmn$track.androidpp.com,srv$3,exp$1495480289975000,ct$27,v$1.0,adv$1604824,pbid$1,seid$5413695,mi$6f36efc1-6687-4e5d-85ff-e7764459d13c))&r=1495473089975&al=$(AD_FEEDBACK)\",\"advertiser_id\":\"1604824\",\"assets\":[{\"mediaInfo\":[{\"bitrate\":299,\"contentType\":\"video/mp4\",\"height\":180,\"isVideoClip\":true,\"length\":5,\"url\":\"https://edgecast-vod.yimg.com/geminivideoads/7244ce63-1da9-5be4-a9be-a7a9370c6feb/video_output_1.mp4\",\"width\":320}],\"usageType\":\"VIDEO_PREVIEW\"},{\"mediaInfo\":[{\"bitrate\":500,\"contentType\":\"video/mp4\",\"height\":270,\"length\":30,\"url\":\"https://edgecast-vod.yimg.com/geminivideoads/7244ce63-1da9-5be4-a9be-a7a9370c6feb/video_output_1.mp4\",\"width\":480}],\"usageType\":\"VIDEO_PRIMARY\"}],\"callToAction\":\"Book Now\",\"clickUrl\":\"https://beap.gemini.yahoo.com/mbclk?bv=1.0.0&es=av9ESSsGIS.q49tfd6YKs1vfQUQd2TiSip8EcK8B3H3eG4uh8nVEFCsXSHTE0p5caAqtvk5E79DuQBBatrQyfPbZDzrYck0Ve_AZHURNr8BzG5uw3OHrL88meg.aGgHfGxZrfjFh8tBSgkAJ79b6Ec3Uj6PkZD3DXuj_9pIT_.v8tVyk.HsDlW2Tm9bKVujxpfOr28UWWQja94tsWjrH9mJkdlUQcg3yOfEqxFV.bs16E8q7PiPaCQBAIkaKgx_2HBNMkn.eoTf3F1JdMzo_WGseUmmo0vea70uRfi.N2zXS9Krg9NWw._l8co.Z2MQiiG7AhvVtjDWmB9Hg6RIJoiim0GU8SFoeDfW58MiWP2dIRVR6jmxrisNRP_KDO_HBHbsx0PfrbwTiK6oFrfk2W27._qIs4QpB.JLEaEfaZ_9qOnetOOvgeDKnlXeuHhRuhkZJTAcJoAdeVlFgFwH0YpcMQfXyaZLVSdnPJryZhO8qjBJsiZPz1X8Hjxq9XmMUsd75FVzOGGxzJh1s2uDLyX5pK1mRydb.32VVbp8PUcsKvWo3udW83gqMrhol8zR4BPoCM5xhbEQAwMaEC4K25q104jQVssNms4IucfBpycz5fPU1pPZLj.WQ6CAXsxHF7eevscuLy2KkS.dVaGjjzcddQi.yk73arlQ2um4-%26lp=\",\"headline\":\"Vitamin C Face Mist\",\"hqImage\":\"https://s.yimg.com/av/moneyball/ads/1495263644497-3001.jpg\",\"hqImageHeight\":627,\"hqImageWidth\":1200,\"image\":\"http://l.yimg.com/av/curveball/ads/pr/RESIZE/82x82/672305acb9b50c0233a6c261666e311a.jpeg\",\"imageHeight\":82,\"imageWidth\":82,\"landingUrl\":\"http://track.androidpp.com/21109b3b-84d4-42b8-944a-ca5f6680f406?adid=33362086729&creative=33362086729&device=&network=n&pixel=.i2YI8cf1H_rNvlwc6opP.zrvb1w3Dy7UPTh7GoR1.8kY1M8iaxz6.bqHtO3MGyVX1by22sOy9plijaqzDXnLvjLXDqxBV1Kt3f8u.Ktrw7dHEB0pxnQ6NpAgqpY4ahVfj5eG4bRx.6xzmDylYHhVNiQ6nqQ9gHiMs7KwX9OaRZtsMktS_qTlaB7IFrCSm.Z_8Yd5.exYZUW1Q8n3RcWUWPOfzfRWkfKPd3GiO.Pb7l_LQ--&pixelid=null&mi=6F36EFC1-6687-4E5D-85FF-E7764459D13C\",\"objective\":\"VISIT_WEB\",\"origImg\":\"https://s.yimg.com/av/moneyball/ads/1495263542188-369.jpg\",\"origImgHeight\":627,\"origImgWidth\":627,\"secHqImage\":\"https://s.yimg.com/av/moneyball/ads/1495263644497-3001.jpg\",\"secImage\":\"https://s.yimg.com/av/curveball/ads/pr/RESIZE/82x82/672305acb9b50c0233a6c261666e311a.jpeg\",\"secOrigImg\":\"https://s.yimg.com/av/moneyball/ads/1495263542188-369.jpg\",\"source\":\"softerhealthier\",\"sponsoredByLabel\":\"Sponsored\",\"summary\":\"Instantly refresh your skin and boost radiance with our face mist. Perfect for enhancing dull complexions and on- the-go hydration.\",\"thumbnailImage\":\"\",\"thumbnailImageHeight\":-1,\"thumbnailImageWidth\":-1,\"uuid\":\"33362086729\"}"
+    }],
+    "adsRequested": 3,
+    "adserverLatency": 0.00001,
+    "section": {
+        "id": 5413695
+    },
+    "serverIp": "extfe3.cbs.cb.gq1.yahoo.com",
+    "status": "0",
+    "totalAds": 1,
+    "totalLatency": 0.090515,
+    "userCountry": "US",
+    "version": "2"
+}
