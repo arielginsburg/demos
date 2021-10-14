@@ -13,13 +13,33 @@
 <body>
     <video id="video" src="https://edgecast-vod.yimg.com/geminivideoads/8f04a1f9-4a28-57d4-9c66-c26a33763278/video_output_201.mp4" controls></video>
     <script>
-        (function () {
+        (async function () {
             var video = document.getElementById('video');
             video.addEventListener('error', function() {
                 alert('error');
                 console.log('@@@ video.error', video.error);
             });
-            video.play();
+            await play();
+            console.log('@@@ play attempt complete');
+
+            function play() {
+                return new Promise((res) => {
+                    const playPromise = video.play();
+                    if (playPromise !== undefined) {
+                        playPromise
+                            .then(() => {
+                                res();
+                            })
+                            .catch(() => {
+                                video.muted = true;
+                                video.src && video.play();
+                                res();
+                            });
+                    } else {
+                        res();
+                    }
+                });
+            }
         })();
     </script>
 </body>
