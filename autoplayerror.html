@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Autoplay Error Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #video {
+            width: 640px;
+            height: 360px;
+        }
+    </style>
+</head>
+<body>
+    <video id="video" src="https://edgecast-vod.yimg.com/geminivideoads/8f04a1f9-4a28-57d4-9c66-c26a33763278/video_output_201.mp4" controls></video>
+    <script>
+        (function () {
+            var video = document.getElementById('video');
+            video.addEventListener('error', function() {
+                alert('error');
+                console.log('@@@ video.error', video.error);
+            });
+            video.play();
+        })();
+    </script>
+</body>
+</html>
