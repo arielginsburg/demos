@@ -19,21 +19,35 @@
                 alert('error');
                 console.log('@@@ video.error', video.error);
             });
+            video.addEventListener('abort', function() {
+                alert('abort');
+                console.log('@@@ video.error', video.error);
+            });
             await play();
             console.log('@@@ play attempt complete');
 
             function play() {
                 return new Promise((res) => {
-                    const playPromise = video.play();
+                    let playPromise = video.play();
                     if (playPromise !== undefined) {
                         playPromise
                             .then(() => {
+                                console.log('@@@ first play attempt successful');
                                 res();
                             })
                             .catch(() => {
+                                console.log('@@@ first play attempt unsuccessful');
                                 video.muted = true;
-                                video.src && video.play();
-                                res();
+                                playPromise = video.play();
+                                playPromise
+                                    .then(() => {
+                                        console.log('@@@ second play attempt successful');
+                                        res();
+                                    })
+                                    .catch(() => {
+                                        console.log('@@@ second play attempt unsuccessful');
+                                        res();
+                                    });
                             });
                     } else {
                         res();
